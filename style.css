@@ -1,0 +1,30 @@
+body {
+    padding: 10px;
+    /*direction: rtl;*/
+}
+.code-form {}
+.code-form__inner {
+    display: table;
+    width: 100%;
+}
+.code-form__inp-wrp {
+    display: table-cell;
+    width: 100%;
+}
+.code-form__inp {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid gray;
+    font-size: 32px;
+}
+.code-form__btn-wrp {
+    display: table-cell;
+    white-space: nowrap;
+}
+.code-form__btn {
+    font-size: 32px;
+}
+.code-form__sep {
+    display: table-cell;
+    padding: 0 10px 0 9px;
+}
